@@ -21,6 +21,19 @@
 		<category>OSGi</category>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>RedKing-personal</id>
+			<url>https://packagecloud.io/RedKing/personal/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
@@ -101,7 +114,7 @@
 		<dependency>
 			<groupId>com.integration</groupId>
 			<artifactId>camel.module</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 
